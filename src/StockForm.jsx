@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { StockContext } from "./StockContext";
 import "./Stock.css";
-import "./assets/9818332.png";
+import "../src/assets/9818332.png";
 
 const StockForm = () => {
   const [symbol, setSymbol] = useState("");

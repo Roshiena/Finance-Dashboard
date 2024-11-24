@@ -2,7 +2,7 @@ import React from "react";
 import { StockProvider } from "./StockContext";
 import StockForm from "./StockForm";
 import StockList from "./StockList";
-import "./assets/9818332.png";
+import "../src/assets/9818332.png";
 
 const App = () => {
   return (
