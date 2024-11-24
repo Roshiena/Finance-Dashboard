@@ -3,13 +3,13 @@ import { StockProvider } from "./StockContext";
 import StockForm from "./StockForm";
 import StockList from "./StockList";
 import "./Stock.css";
-
+import stockImage from "./9818332.png";
 const App = () => {
   return (
     <StockProvider>
       <div>
         <div>
-          <img src="./src/9818332.png"></img>
+          <img src={stockImage} alt="Stock Image" />
         </div>
         <h1>Finance Dashboard</h1>
         <StockForm />
