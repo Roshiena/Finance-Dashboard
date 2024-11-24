@@ -3,9 +3,9 @@ form {
   gap: 10px;
   margin-bottom: 10px;
 }
+
 img {
   width: 150px;
-  overflow: content-box;
 }
 
 table {

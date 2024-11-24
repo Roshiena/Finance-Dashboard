@@ -2,14 +2,14 @@ import React from "react";
 import { StockProvider } from "./StockContext";
 import StockForm from "./StockForm";
 import StockList from "./StockList";
-import "../src/assets/9818332.png";
+import "./Stock.css";
 
 const App = () => {
   return (
     <StockProvider>
       <div>
         <div>
-          <img src="../src/assets/9818332.png"></img>
+          <img src="./src/9818332.png"></img>
         </div>
         <h1>Finance Dashboard</h1>
         <StockForm />

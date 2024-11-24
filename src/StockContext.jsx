@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 export const StockContext = createContext();
 
-export const StockProvider = ({children}) => {
+export const StockProvider = ({ children }) => {
   const [stocks, setStocks] = useState([]);
 
   const addStock = (stock) => {
