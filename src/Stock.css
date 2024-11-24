@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+img {
+  width: 150px;
+  overflow: content-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+td {
+  text-align: right;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(0, 166, 255);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6f7e8e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
